@@ -26,7 +26,7 @@ CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "700"))
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "120"))
 RETRIEVAL_K = int(os.getenv("RETRIEVAL_K", "6"))
 
-APP_HOST = os.getenv("APP_HOST", "0.0.0.0")
+APP_HOST = os.getenv("APP_HOST", "127.0.0.1")
 RAG_APP_PORT = int(os.getenv("RAG_APP_PORT", "7860"))
 EVALUATOR_PORT = int(os.getenv("EVALUATOR_PORT", "7861"))
 
