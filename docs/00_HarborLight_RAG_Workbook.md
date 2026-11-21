@@ -273,9 +273,9 @@ CHROMA_HOST=localhost
 CHROMA_PORT=8000
 CHROMA_COLLECTION=harborlight_docs
 
-CHAT_MODEL=gpt-4.1-nano
-JUDGE_MODEL=gpt-4.1-nano
-EMBEDDING_MODEL=text-embedding-3-large
+CHAT_MODEL=gpt-6-luna
+JUDGE_MODEL=gpt-6-luna
+EMBEDDING_MODEL=text-embedding-3-small
 
 CHUNK_SIZE=700
 CHUNK_OVERLAP=120
@@ -324,9 +324,9 @@ CHROMA_HOST = os.getenv("CHROMA_HOST", "localhost")
 CHROMA_PORT = int(os.getenv("CHROMA_PORT", "8000"))
 CHROMA_COLLECTION = os.getenv("CHROMA_COLLECTION", "harborlight_docs")
 
-CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-4.1-nano")
+CHAT_MODEL = os.getenv("CHAT_MODEL", "gpt-6-luna")
 JUDGE_MODEL = os.getenv("JUDGE_MODEL", CHAT_MODEL)
-EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-large")
+EMBEDDING_MODEL = os.getenv("EMBEDDING_MODEL", "text-embedding-3-small")
 
 CHUNK_SIZE = int(os.getenv("CHUNK_SIZE", "700"))
 CHUNK_OVERLAP = int(os.getenv("CHUNK_OVERLAP", "120"))
